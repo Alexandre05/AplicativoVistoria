@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/omeFragment"
+            android:title="Inicio"/>
+
+    <item
+            android:id="@+id/profileFragment"
+            android:title="Profil"
+    />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Sair"
+        />
+</menu>

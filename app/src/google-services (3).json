@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "3936110930",
+    "firebase_url": "https://vistoria-5f92c-default-rtdb.firebaseio.com",
+    "project_id": "vistoria-5f92c",
+    "storage_bucket": "vistoria-5f92c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3936110930:android:24af1b3002ace5afeb928b",
+        "android_client_info": {
+          "package_name": "com.vistoriapatrimonialmanoelviana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3936110930-54im2qi5l47i14qhitabf0nd2kebg523.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz5_Rs5OHvCn_Go1A-bI2O8UcZKIN-PR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3936110930-54im2qi5l47i14qhitabf0nd2kebg523.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

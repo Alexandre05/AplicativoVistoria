@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">VistoriPatrimonialMV</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Adicione_descrição">Descrição Item</string>
+    <string name="Placa">Placa</string>
+    <string name="Adicione_Localizacao">Localização Item</string>
+    <string name="Pesquisar">Pesquisar</string>
+    <string name="add">Cadastrar</string>
+    <string name="add_new_author">Cadastrar Novo Item</string>
+    <string name="error_field_required">Localização do Item</string>
+
+    <string name="author_added">Cadastro Realizado com Sucesso</string>
+    <string name="error">Error: %1$s</string>
+    <string name="edit_author">Editar Patrimonio </string>
+    <string name="update">Editar</string>
+    <string name="delete_confirmation">Confirma a Exclução?</string>
+    <string name="yes">Sim</string>
+    <string name="nao">Não</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar ou Registrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="welcome">"Bem Vindo!"</string>
+    <string name="invalid_username">Não é um nome de usuário válido</string>
+    <string name="invalid_password">A senha deve ser mais que 5 caracteres</string>
+    <string name="login_failed">"Falha na autenticação"</string>
+    <string name="simplified_coding">Codificação Simplificada</string>
+</resources>

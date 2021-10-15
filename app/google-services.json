@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "423636749238",
+    "project_id": "vistoriapatrimonial",
+    "storage_bucket": "vistoriapatrimonial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423636749238:android:35470b75df29be98d18f17",
+        "android_client_info": {
+          "package_name": "com.vistoriapatrimonialmanoelviana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423636749238-k38g8u1javvc5i2srre25ijtphkncblk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZczKFRaMwovYRrmy4UTx0SwbicIMwxgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423636749238-k38g8u1javvc5i2srre25ijtphkncblk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
