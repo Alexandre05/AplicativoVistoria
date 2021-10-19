@@ -25,7 +25,7 @@
                 android:layout_height="90dp"/>
 
             <EditText
-                android:hint="Enter Name"
+                android:hint="Nome"
                 android:textAlignment="center"
                 android:layout_marginTop="5dp"
                 android:textColor="@android:color/white"
