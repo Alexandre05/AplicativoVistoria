@@ -27,5 +27,5 @@
     <string name="invalid_username">Não é um nome de usuário válido</string>
     <string name="invalid_password">A senha deve ser mais que 5 caracteres</string>
     <string name="login_failed">"Falha na autenticação"</string>
-    <string name="simplified_coding">Codificação Simplificada</string>
+    <string name="Desenvolvedor">Alexandre Barreto Menna </string>
 </resources>
