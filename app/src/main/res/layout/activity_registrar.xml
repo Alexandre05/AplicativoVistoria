@@ -61,6 +61,22 @@
                     android:hint="exemplo@exemplo.com"
                     android:inputType="textEmailAddress"
                     android:singleLine="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:labelFor="@id/text_email"
+                    android:text="Nome Completo" />
+
+                <EditText
+                    android:id="@+id/text_nome"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:drawablePadding="10dp"
+                    android:hint="Seu Nome Completo"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"/>
 
                 <TextView
                     android:layout_width="wrap_content"

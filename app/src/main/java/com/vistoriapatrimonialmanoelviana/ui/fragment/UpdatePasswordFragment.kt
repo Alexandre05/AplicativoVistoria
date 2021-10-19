@@ -46,7 +46,7 @@ class UpdatePasswordFragment: Fragment() {
             val password = edit_text_password.text.toString().trim()
 
             if (password.isEmpty()) {
-                edit_text_password.error = "Password required"
+                edit_text_password.error = "Senha requerida"
                 edit_text_password.requestFocus()
                 return@setOnClickListener
             }
@@ -64,7 +64,7 @@ class UpdatePasswordFragment: Fragment() {
                                 layoutUpdatePassword.visibility = View.VISIBLE
                             }
                             task.exception is FirebaseAuthInvalidCredentialsException -> {
-                                edit_text_password.error = "Invalid Password"
+                                edit_text_password.error = "senha inválida"
                                 edit_text_password.requestFocus()
                             }
                             else -> context?.toast(task.exception?.message!!)
@@ -79,13 +79,13 @@ class UpdatePasswordFragment: Fragment() {
             val password = edit_text_new_password.text.toString().trim()
 
             if(password.isEmpty() || password.length < 6){
-                edit_text_new_password.error = "atleast 6 char password required"
+                edit_text_new_password.error = "é necessária uma senha de pelo menos 6 caracteres"
                 edit_text_new_password.requestFocus()
                 return@setOnClickListener
             }
 
             if(password != edit_text_new_password_confirm.text.toString().trim()){
-                edit_text_new_password_confirm.error = "password did not match"
+                edit_text_new_password_confirm.error = "a senha não confere"
                 edit_text_new_password_confirm.requestFocus()
                 return@setOnClickListener
             }
@@ -97,7 +97,7 @@ class UpdatePasswordFragment: Fragment() {
                         if(task.isSuccessful){
                             val action =UpdatePasswordFragmentDirections.actionPasswordUpdated()
                             Navigation.findNavController(it).navigate(action)
-                            context?.toast("Password Updated")
+                            context?.toast("Senha atualizada")
                         }else{
                             context?.toast(task.exception?.message!!)
                         }

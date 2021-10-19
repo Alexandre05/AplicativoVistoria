@@ -27,22 +27,31 @@ class RegisterActivity : AppCompatActivity() {
 
         button_register.setOnClickListener {
             val email = text_email.text.toString().trim()
+            val nome_completo=text_nome.text.toString().trim()
             val password = edit_text_password.text.toString().trim()
 
             if (email.isEmpty()) {
-                text_email.error = "Email Required"
+                text_email.error = "Email obrigatório"
                 text_email.requestFocus()
                 return@setOnClickListener
             }
 
+            if(nome_completo.isEmpty()){
+                text_nome.error="Nome Obrigatório"
+                text_nome.requestFocus()
+                return@setOnClickListener
+
+
+            }
+
             if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                text_email.error = "Valid Email Required"
+                text_email.error = "É necessário um email válido"
                 text_email.requestFocus()
                 return@setOnClickListener
             }
 
             if (password.isEmpty() || password.length < 6) {
-                edit_text_password.error = "6 char password required"
+                edit_text_password.error = "Senha de 6 caracteres necessária"
                 edit_text_password.requestFocus()
                 return@setOnClickListener
             }
