@@ -4,17 +4,22 @@
             xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
             app:startDestination="@id/homeFragment">
 
-    <fragment android:id="@+id/homeFragment" android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.HomeFragment"
+    <fragment android:id="@+id/homeFragment" android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.HomeFragment2"
               />
-    <fragment android:id="@+id/Perfil"
-              android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.ProfileFragment" android:label="Profile"
-              tools:layout="@layout/fragment_profile">
-        <action android:id="@+id/actionVerifyPhone"
-                app:destination="@id/verifyPhoneFragment"/>
-        <action android:id="@+id/actionUpdateEmail"
-                app:destination="@id/updateEmailFragment"/>
-        <action android:id="@+id/actionUpdatePassword"
-                app:destination="@id/updatePasswordFragment"/>
+    <fragment
+        android:id="@+id/Perfil"
+        android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.ProfileFragment2"
+        android:label="perfil"
+        tools:layout="@layout/fragment_profile2">
+        <action
+            android:id="@+id/actionVerifyPhone"
+            app:destination="@id/verifyPhoneFragment" />
+        <action
+            android:id="@+id/actionUpdateEmail"
+            app:destination="@id/updateEmailFragment" />
+        <action
+            android:id="@+id/actionUpdatePassword"
+            app:destination="@id/updatePasswordFragment" />
     </fragment>
     <fragment android:id="@+id/verifyPhoneFragment"
               android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.VerifyPhoneFragment2"

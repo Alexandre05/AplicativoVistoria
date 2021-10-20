@@ -17,7 +17,8 @@ import androidx.navigation.ui.NavigationUI
 import com.google.firebase.auth.FirebaseAuth
 import com.vistoriapatrimonialmanoelviana.R
 import com.vistoriapatrimonialmanoelviana.utils.logout
-import kotlinx.android.synthetic.main.activity_home.*
+//import kotlinx.android.synthetic.main.activity_home.*
+//import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class activity_main : AppCompatActivity() {
@@ -31,8 +32,17 @@ class activity_main : AppCompatActivity() {
 
 //val busca=findViewById<SearchView>(R.id.busca)
 
-
+        val navController = Navigation.findNavController(this, R.id.fragment)
+        NavigationUI.setupWithNavController(nav_view, navController)
+        NavigationUI.setupActionBarWithNavController(
+            this,
+            navController, drawer_layout
+        )
     }
+
+
+
+
 
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(
@@ -45,10 +55,11 @@ class activity_main : AppCompatActivity() {
 
     @SuppressLint("ResourceType")
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.xml.nav_menu, menu)
+        menuInflater.inflate(R.menu.nav_menu, menu)
         return true
 
     }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item?.itemId == R.id.action_logout) {
@@ -67,7 +78,13 @@ class activity_main : AppCompatActivity() {
 
         }
         return super.onOptionsItemSelected(item)
+
+
     }
 
 
+
+
+
 }
+

@@ -20,11 +20,11 @@
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/activity_register.xml" value="0.16" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/fragment_home.xml" value="0.1" />
-        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/fragment_profile.xml" value="0.18" />
+        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/fragment_profile.xml" value="0.2" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/fragment_update_email.xml" value="0.153125" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/fragment_update_password.xml" value="0.153125" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/fragment_verify_phone.xml" value="0.22" />
-        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/nav_header.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout-w936dp/nav_header.xml" value="0.1" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/activity_fragment_home.xml" value="0.1848341232227488" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/activity_fragment_home2.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/activity_login.xml" value="0.2" />
@@ -35,9 +35,15 @@
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/dialog_fragment_add_author.xml" value="0.13541666666666666" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/dialog_fragment_edit_author.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/fragment_authors.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/fragment_home2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/fragment_profile2.xml" value="0.121875" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/fragment_verify_phone2.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/menu.xml" value="0.1" />
+        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/na_header.xml" value="0.1" />
         <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/layout/recycler_view_author.xml" value="0.21" />
+        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/menu/nav_mena.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/menu/nav_menu.xml" value="0.18" />
+        <entry key="..\:/Users/PC/Desktop/APPP/vistoriapatrimonialmanoelvinars/app/src/main/res/menu/opcoes.xml" value="0.15" />
       </map>
     </option>
   </component>

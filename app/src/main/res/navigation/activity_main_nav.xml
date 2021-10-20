@@ -9,6 +9,7 @@
         android:id="@+id/authorsFragment"
         android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.AuthorsFragment"
         tools:layout="@layout/fragment_authors"
-        android:label="Vistoria" />
+        android:label="Itens Vistoriados" />
+
 
 </navigation>

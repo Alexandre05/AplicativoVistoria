@@ -17,13 +17,13 @@ import com.google.firebase.auth.UserProfileChangeRequest
 import com.google.firebase.storage.FirebaseStorage
 import com.vistoriapatrimonialmanoelviana.R
 import com.vistoriapatrimonialmanoelviana.utils.toast
-import kotlinx.android.synthetic.main.fragment_profile.*
+import kotlinx.android.synthetic.main.fragment_profile2.*
 
 
 import java.io.ByteArrayOutputStream
 
 
-class ProfileFragment : Fragment() {
+class ProfileFragment2 : Fragment() {
 
     private val DEFAULT_IMAGE_URL = "https://picsum.photos/200"
 
@@ -36,8 +36,8 @@ class ProfileFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        // Inflar o layout para este fragmento
+        return inflater.inflate(R.layout.fragment_profile2, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -50,7 +50,7 @@ class ProfileFragment : Fragment() {
             edit_text_name.setText(user.displayName)
             text_email.text = user.email
 
-            text_phone.text = if (user.phoneNumber.isNullOrEmpty()) "Add Number" else user.phoneNumber
+            text_phone.text = if (user.phoneNumber.isNullOrEmpty()) "Adicionar número" else user.phoneNumber
 
             if (user.isEmailVerified) {
                 text_not_verified.visibility = View.INVISIBLE
@@ -74,7 +74,7 @@ class ProfileFragment : Fragment() {
             val name = edit_text_name.text.toString().trim()
 
             if (name.isEmpty()) {
-                edit_text_name.error = "name required"
+                edit_text_name.error = "nome requerido"
                 edit_text_name.requestFocus()
                 return@setOnClickListener
             }
@@ -90,7 +90,7 @@ class ProfileFragment : Fragment() {
                 ?.addOnCompleteListener { task ->
                     progressbar.visibility = View.INVISIBLE
                     if (task.isSuccessful) {
-                        context?.toast("Profile Updated")
+                        context?.toast("Perfil atualizado")
                     } else {
                         context?.toast(task.exception?.message!!)
                     }
@@ -113,17 +113,17 @@ class ProfileFragment : Fragment() {
         }
 
         text_phone.setOnClickListener {
-            val action =ProfileFragmentDirections.actionVerifyPhone()
+            val action =ProfileFragment2Directions.actionVerifyPhone()
             Navigation.findNavController(it).navigate(action)
         }
 
         text_email.setOnClickListener {
-            val action = ProfileFragmentDirections.actionUpdateEmail()
+            val action = ProfileFragment2Directions.actionUpdateEmail()
             Navigation.findNavController(it).navigate(action)
         }
 
         text_password.setOnClickListener {
-            val action = ProfileFragmentDirections.actionUpdatePassword()
+            val action = ProfileFragment2Directions.actionUpdatePassword()
             Navigation.findNavController(it).navigate(action)
         }
     }
