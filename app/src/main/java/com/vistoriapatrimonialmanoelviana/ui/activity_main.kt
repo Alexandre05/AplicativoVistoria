@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.AlarmClock.EXTRA_MESSAGE
+import android.view.Gravity
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -12,6 +13,7 @@ import android.widget.EditText
 import androidx.navigation.Navigation
 import android.widget.SearchView
 import androidx.appcompat.app.AlertDialog
+import androidx.core.view.GravityCompat
 
 import androidx.navigation.ui.NavigationUI
 import com.google.firebase.auth.FirebaseAuth
@@ -38,6 +40,12 @@ class activity_main : AppCompatActivity() {
             this,
             navController, drawer_layout
         )
+
+        nav_view.setNavigationItemSelectedListener {
+            navController.navigate(it.itemId)
+            drawer_layout.closeDrawer(GravityCompat.START)
+            true
+        }
     }
 
 
