@@ -10,5 +10,39 @@
         android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.AuthorsFragment"
         tools:layout="@layout/fragment_authors"
         android:label="Itens Vistoriados" />
+    <fragment android:id="@+id/homeFragment"
+        android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.HomeFragment2"
+        />
+    <fragment
+        android:id="@+id/Profile"
+        android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.ProfileFragment2"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile2">
+        <action
+            android:id="@+id/actionVerifyPhone"
+            app:destination="@id/verifyPhoneFragment" />
+        <action
+            android:id="@+id/actionUpdateEmail"
+            app:destination="@id/updateEmailFragment" />
+        <action
+            android:id="@+id/actionUpdatePassword"
+            app:destination="@id/updatePasswordFragment" />
+    </fragment>
+    <fragment android:id="@+id/verifyPhoneFragment"
+        android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.VerifyPhoneFragment2"
+        android:label="Verify Phone" tools:layout="@layout/fragment_verify_phone2">
+        <action android:id="@+id/actionPhoneVerified" app:destination="@id/Profile"/>
+    </fragment>
+    <fragment android:id="@+id/updateEmailFragment"
+        android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.UpdateEmailFragment"
+        android:label="Update Email" tools:layout="@layout/fragment_update_email2">
+        <action android:id="@+id/actionEmailUpdated" app:destination="@id/Profile"/>
+    </fragment>
+    <fragment android:id="@+id/updatePasswordFragment"
+        android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.UpdatePasswordFragment"
+        android:label="Update Password" tools:layout="@layout/fragment_update_senha">
+        <action android:id="@+id/actionPasswordUpdated"
+            app:destination="@id/Profile"/>
+    </fragment>
 
 </navigation>
