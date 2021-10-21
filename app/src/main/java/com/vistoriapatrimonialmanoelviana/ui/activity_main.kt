@@ -55,7 +55,7 @@ class activity_main : AppCompatActivity() {
 
     @SuppressLint("ResourceType")
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.nav_menu, menu)
+        menuInflater.inflate(R.menu.opcoes, menu)
         return true
 
     }

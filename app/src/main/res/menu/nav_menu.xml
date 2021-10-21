@@ -6,9 +6,9 @@
         android:id="@+id/homeFragment"
         android:title="Inicio"
         />
-    
+
         <item
-            android:id="@+id/Perfil"
+            android:id="@+id/Profile"
             android:title="Perfil"
             />
 

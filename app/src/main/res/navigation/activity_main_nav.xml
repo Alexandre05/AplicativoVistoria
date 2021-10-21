@@ -11,5 +11,4 @@
         tools:layout="@layout/fragment_authors"
         android:label="Itens Vistoriados" />
 
-
 </navigation>
