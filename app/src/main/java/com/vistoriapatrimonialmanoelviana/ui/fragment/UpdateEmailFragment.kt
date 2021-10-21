@@ -10,7 +10,7 @@ import com.google.firebase.auth.EmailAuthProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.vistoriapatrimonialmanoelviana.R
-import kotlinx.android.synthetic.main.fragment_update_email.*
+import kotlinx.android.synthetic.main.fragment_update_email2.*
 
 
 import com.vistoriapatrimonialmanoelviana.utils.toast
@@ -25,7 +25,7 @@ class UpdateEmailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_update_email, container, false)
+        return inflater.inflate(R.layout.fragment_update_email2, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

@@ -12,13 +12,13 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.vistoriapatrimonialmanoelviana.R
 import com.vistoriapatrimonialmanoelviana.utils.toast
-import kotlinx.android.synthetic.main.fragment_update_email.*
-import kotlinx.android.synthetic.main.fragment_update_email.button_authenticate
-import kotlinx.android.synthetic.main.fragment_update_email.button_update
-import kotlinx.android.synthetic.main.fragment_update_email.edit_text_password
-import kotlinx.android.synthetic.main.fragment_update_email.layoutPassword
-import kotlinx.android.synthetic.main.fragment_update_email.progressbar
-import kotlinx.android.synthetic.main.fragment_update_password.*
+import kotlinx.android.synthetic.main.fragment_update_email2.*
+import kotlinx.android.synthetic.main.fragment_update_email2.button_authenticate
+import kotlinx.android.synthetic.main.fragment_update_email2.button_update
+import kotlinx.android.synthetic.main.fragment_update_email2.edit_text_password
+import kotlinx.android.synthetic.main.fragment_update_email2.layoutPassword
+import kotlinx.android.synthetic.main.fragment_update_email2.progressbar
+import kotlinx.android.synthetic.main.fragment_update_senha.*
 
 
 
@@ -32,7 +32,7 @@ class UpdatePasswordFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_update_password, container, false)
+        return inflater.inflate(R.layout.fragment_update_senha, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
