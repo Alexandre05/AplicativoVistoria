@@ -27,7 +27,7 @@ class LoginActivity : AppCompatActivity() {
             val email = text_email.text.toString().trim()
             val password = edit_text_password.text.toString().trim()
 
-            /*if (email.isEmpty()) {
+            if (email.isEmpty()) {
                 text_email.error = "Email (obrigatório)"
                 text_email.requestFocus()
                 return@setOnClickListener
@@ -45,8 +45,7 @@ class LoginActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            loginUser(email, password)*/
-            login()
+            loginUser(email, password)
 
         }
 

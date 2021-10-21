@@ -44,11 +44,6 @@
         <action android:id="@+id/actionPasswordUpdated"
             app:destination="@id/Profile"/>
     </fragment>
-    <fragment
-        android:id="@+id/profileFragment2"
-        android:name="com.vistoriapatrimonialmanoelviana.ui.fragment.ProfileFragment2"
-        android:label="fragment_profile2"
-        tools:layout="@layout/fragment_profile2" />
 
 
 </navigation>
